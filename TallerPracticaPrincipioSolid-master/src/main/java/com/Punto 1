@@ -1,18 +1,38 @@
+public class Figura { 
+public void dibujar(){}; } 
+public class Cuadrado extends Figura{} 
+public class Circulo extends Figura{} 
+
 public interface Figura {
 public void dibujar();
 }
 
-public class Cuadrado implements Figura {
-public void dibujar() {
+  public class Cuadrado implements Figura {
+  public void dibujar() {
+  
 // Implementación del dibujo del Cuadrado
 }
 }
 
 public class Circulo implements Figura {
 public void dibujar() {
+
 // Implementación del dibujo del Círculo
 }
 }
 
+
+public class Triangulo implements Figura {
+public void dibujar() {
+
+// Implementación del dibujo del Triangulo
+}
+}
+
+
 public class Figuras {
 List<Figura> figuras = new ArrayList<Figura>();
+
+} 
+} 
+} 
